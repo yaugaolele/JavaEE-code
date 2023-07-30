@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315aaf64-30b8-43b9-a452-8672145fe56d" name="Changes" comment="2023.7.22 JavaEE-多线程1代码提交" />
+    <list default="true" id="315aaf64-30b8-43b9-a452-8672145fe56d" name="Changes" comment="2023.7.24 JavaEE-多线程4(多线程案例-单例模式)代码提交">
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadDemo24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/ThreadDemo25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,19 +34,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Java学习代码记录/JavaGitee代码提交/java-ee-elementary/JavaEE-2023.7.22"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java学习代码记录/JavaGitee代码提交/java-ee-elementary/JavaEE-2023.7.22&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ThreadDemo3 (1)">
-    <configuration name="ThreadDemo3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadDemo3" />
+}</component>
+  <component name="RunManager" selected="Application.ThreadDemo25">
+    <configuration name="ThreadDemo21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadDemo21" />
       <module name="JavaEE-2023.7.22" />
       <extension name="coverage">
         <pattern>
@@ -54,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadDemo4" />
+    <configuration name="ThreadDemo22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadDemo22" />
       <module name="JavaEE-2023.7.22" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadDemo5" />
+    <configuration name="ThreadDemo23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadDemo23" />
       <module name="JavaEE-2023.7.22" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadDemo6" />
+    <configuration name="ThreadDemo24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadDemo24" />
       <module name="JavaEE-2023.7.22" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thread.ThreadDemo7" />
+    <configuration name="ThreadDemo25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thread.ThreadDemo25" />
       <module name="JavaEE-2023.7.22" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadDemo3 (1)" />
-        <item itemvalue="Application.ThreadDemo7" />
-        <item itemvalue="Application.ThreadDemo6" />
-        <item itemvalue="Application.ThreadDemo5" />
-        <item itemvalue="Application.ThreadDemo4" />
+        <item itemvalue="Application.ThreadDemo25" />
+        <item itemvalue="Application.ThreadDemo24" />
+        <item itemvalue="Application.ThreadDemo23" />
+        <item itemvalue="Application.ThreadDemo21" />
+        <item itemvalue="Application.ThreadDemo22" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +136,35 @@
       <option name="project" value="LOCAL" />
       <updated>1690016549891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2023.7.22 JavaEE-多线程2(线程安全不不安全问题)代码提交">
+      <created>1690032363594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690032363594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2023.7.22 JavaEE-多线程3(线程安全不不安全问题 + 多线程阻塞问题)代码提交">
+      <created>1690116953292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690116953292</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2023.7.23 JavaEE-多线程3(线程安全不不安全问题 + 多线程阻塞问题)代码提交">
+      <created>1690116970089</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690116970089</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2023.7.24 JavaEE-多线程4(多线程案例-单例模式)代码提交">
+      <created>1690180772991</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690180772991</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +181,10 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2023.7.22 JavaEE-多线程1代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023.7.22 JavaEE-多线程1代码提交" />
+    <MESSAGE value="2023.7.22 JavaEE-多线程2(线程安全不不安全问题)代码提交" />
+    <MESSAGE value="2023.7.22 JavaEE-多线程3(线程安全不不安全问题 + 多线程阻塞问题)代码提交" />
+    <MESSAGE value="2023.7.23 JavaEE-多线程3(线程安全不不安全问题 + 多线程阻塞问题)代码提交" />
+    <MESSAGE value="2023.7.24 JavaEE-多线程4(多线程案例-单例模式)代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023.7.24 JavaEE-多线程4(多线程案例-单例模式)代码提交" />
   </component>
 </project>
