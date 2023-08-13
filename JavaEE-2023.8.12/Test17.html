@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 文本框 -->
+    <h3>文本框</h3>
+    <input type="text">
+
+    <!-- 密码框 -->
+    <h3>密码框</h3>
+    <input type="password">
+
+    <!-- 单选框 -->
+    <h3>单选框</h3>
+    <!-- 注意：单选框之间必须具备相同的name属性，才能实现 多选一 的效果 -->
+    <input type="radio" name="sex"> 男
+    <input type="radio" name="sex"> 女
+
+    <!-- 复选框 -->
+    <h3>复选框</h3>
+    爱好：
+    <input type="checkbox">跳舞&nbsp;&nbsp;&nbsp;
+    <input type="checkbox">画画&nbsp;&nbsp;&nbsp;
+    <input type="checkbox">运动&nbsp;&nbsp;&nbsp;
+    <input type="checkbox">唱歌&nbsp;&nbsp;&nbsp;
+
+    <!-- 普通按钮 -->
+    <h3>普通按钮</h3>
+    <!-- 此时点击是没有效果的，这个要配合后期学习的JS才会有效果，这个后面会给大家讲解 -->
+    <input type="button" value="我是一个普通按钮">
+
+    <!-- 提交按钮 -->
+    <!-- 注意：提交按钮必须放置在form标签中，他是点击之后要尝试交给服务器的 -->
+    <h3>提交按钮</h3>
+    <form action="http://www.baidu.com">
+        <input type="text" name="username">
+        <input type="submit" value="提交">
+    </form>
+    
+    <!-- 清空按钮 -->
+    <!-- 注意：清空按钮必须放置在form标签中，点击后会将form内所有用户输入的内容重置-->
+    <h3>提交按钮</h3>
+    <form action="http://www.baidu.com">
+        <input type="text" name="username">
+        <input type="submit" value="提交">
+        <input type="reset" value="清空">
+    </form>
+
+</body>
+</html>
