@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confession-wall(表白墙)</title>
+    <script src="../jquery.min.js"></script>
+</head>
+<body>
+    <div style="width: 100%; text-align: center;">
+        <h2>表白墙</h2>
+        谁：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="username"><p></p>
+        对谁说：<input id="tousername"><p></p>
+        说什么：<input id="msg"><p></p>
+        <input type="button" value="提交" onclick="mysub()"><p></p>
+        <div id="div_allmsg">
+
+        </div>
+    </div>
+    <script>
+        function mysub() {
+            var iptUserName = jQuery("#username");
+            var iptToUserName = jQuery("#tousername");
+            var iptMsg = jQuery("#msg");
+            //1.非空校验
+            if(iptUserName.val().trim() == "") {
+                alert("请先输入您的姓名！");
+                iptUserName.focus();
+                return;
+            }
+            if(iptToUserName.val().trim() == "") {
+                alert("请先输入对方的名字！");
+                iptToUserName.focus();
+                return;
+            }
+            if(iptMsg.val().trim() == "") {
+                alert("请先输入信息！");
+                iptMsg.focus();
+                return;
+            }
+            //2.将内容展示在表白墙
+            jQuery("#div_allmsg").append(iptUserName.val() + "对" + iptToUserName.val() + "说：" + iptMsg.val() + "<p></p>");
+            //3.清空输入框的内容
+            iptUserName.val("");
+            iptToUserName.val("");
+            iptMsg.val("");
+        }
+    </script>
+</body>
+</html>

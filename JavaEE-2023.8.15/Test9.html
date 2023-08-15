@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景设置</title>
+</head>
+<body>
+    <div class="background">1</div>
+
+    <style>
+        .background {
+            font-size: 100px;
+            width: 200px;
+            height: 160px;
+            color: blueviolet;
+            background-color: gold;
+            /* 导入背景图 */
+            border-image: url(cat.jpg);
+            /* 禁止平铺 */
+            background-repeat: no-repeat;
+            /* 设置背景图的位置 */
+            background-position: center center;
+            /* 设置背景图的大小 */
+            background-size: 2000px 1600px;
+        }      
+    </style>
+</body>
+</html>
